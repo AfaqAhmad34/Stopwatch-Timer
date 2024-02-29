@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_stop"
+        android:title="Stopwatch"
+        android:icon="@drawable/ic_stopwatch" />
+
+    <item
+        android:id="@+id/nav_timer"
+        android:title="Timer"
+        android:icon="@drawable/ic_timer" />
+
+    <item
+        android:id="@+id/nav_clock"
+        android:title="Clock"
+        android:icon="@drawable/ic_clcok" />
+
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_view_shared_element_transition_name">navigation_view_shared_element</string>
+</resources>

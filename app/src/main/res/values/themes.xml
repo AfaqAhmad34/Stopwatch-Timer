@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StopWatch" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.StopWatch" parent="Base.Theme.StopWatch" />
+
+    <style name="ShapeAppearanceOverlay.Stopwatch.Button.Rounded" parent="">
+        <item name="cornerSize">16dp</item> <!-- Adjust the corner size as needed -->
+        <item name="android:textColor">@color/white</item> <!-- Set the button text color -->
+        <!-- Add more attributes as needed -->
+
+    </style>
+
+    <style name="DilogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+    <!-- enable window activity transitions (REQUIRED) -->
+    <item name="android:windowActivityTransitions">true</item>
+
+    <!-- specify enter and exit transitions (OPTIONAL) -->
+    <item name="android:windowEnterTransition">@transition/explode</item>
+    <item name="android:windowExitTransition">@transition/explode</item>
+
+    <!-- specify shared element transitions -->
+    <item name="android:windowSharedElementEnterTransition">
+        @transition/change_image_transform</item>
+    <item name="android:windowSharedElementExitTransition">
+        @transition/change_image_transform</item>
+</style>
+</resources>
